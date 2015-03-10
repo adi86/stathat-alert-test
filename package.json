@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "request-json": "^0.5.2"
+  }
+}
