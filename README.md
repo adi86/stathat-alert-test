@@ -33,31 +33,31 @@ $ npm install
 ### Listing all stats:
 
 ```
-$ node stathat.js statlist
+$ node stathat_old.js statlist
 ```
 
 ### Listing all alerts:
 
 ```
-$ node stathat.js list
+$ node stathat_old.js list
 ```
 
 ### Filtering the alerts list
 
 ```
-$ node stathat.js list user
+$ node stathat_old.js list user
 ```
 
 ### Show details
 
 ```
-$ node stathat.js detail XQBp
+$ node stathat_old.js detail XQBp
 ```
 
 ### Delete alert
 
 ```
-$ node stathat.js delete 264e
+$ node stathat_old.js delete 264e
 ```
 
 ### Create alert:
@@ -76,17 +76,17 @@ Every each type has different set of parameters.
 For example if you want to create data alert for stat with id K3dl, with time_window "1h" execute:
 
 ```
-$ node stathat.js create K3dl data 1h
+$ node stathat_old.js create K3dl data 1h
 ```
 
 To create value alert for stat id K3dl, time_window "1y", threshold to compare to "greater than 500"
 
 ```
-$ node stathat.js create K3dl value 1y greater than 500
+$ node stathat_old.js create K3dl value 1y greater than 500
 ```
 
 To create delta alert for stat id K3dl, time_window "1w", percentage "10%", operator "greater than" and time_delta "1w" execute:
 
 ```
-$ node stathat.js create K3dl delta 1w 10 greater than 1w
+$ node stathat_old.js create K3dl delta 1w 10 greater than 1w
 ```
